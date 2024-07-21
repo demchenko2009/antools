@@ -1,0 +1,200 @@
+body {
+    font-family: "";
+    color: var();
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1244px;
+}
+
+.header {
+    background-color:#1E252B;
+    padding-top: 26px;
+    padding-bottom: 58px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.list-seite {
+    gap: 40px;
+}
+
+.list-seite {
+    display: flex;
+    margin-left: 257px;
+}
+
+.link-text {
+    display: flex;
+}
+
+.seite-img {
+    margin-left: 5px;
+}
+
+.text-seite {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.list-dock {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 41px;
+}
+
+.dock-text {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} 
+
+.button {
+    border-radius: 8px;
+    background: #FF6E30;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.text-button {
+    color: #FDF5FF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* technik */
+
+.section-technik {
+    padding-top: 104px;
+    background-color:#1E252B;
+    background-image: url(../img/information.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.titke-technik {
+    width: 600px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 70px */
+}
+
+.text-technik {
+    width: 487px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 30px;
+}
+
+
+.input-technik {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    display: flex;
+    margin-top: 60px;
+    width: 497.659px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: #283036;
+}
+
+
+.img-input {
+    margin-right: 13px;
+}
+
+
+
+
+
+
+.input {
+    background: #283036;
+    border: none;
+}
+
+.button-input {
+    border-radius: 8px;
+    background: #FF6E30;
+    margin-left: 147px;
+    width: 130.435px;
+    height: 48px;
+    margin-top: -12px;
+    margin-right: 12px;
+}
+
+.text-button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.image-list {
+    display: flex;
+    align-items: center;
+    margin-top: 121px;
+    gap: 30px;
+}
