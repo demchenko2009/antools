@@ -409,9 +409,8 @@ padding-right: 38px;
 }
 
 .markriting-box {
-    width: 1224px;
-    height: 253px;
-    flex-shrink: 0;
+    padding-top: 55px;
+    padding-bottom: 60px;
     border-radius: 25px;
 border: 2px solid rgba(255, 255, 255, 0.05);
 background: rgba(44, 53, 61, 0.20);
@@ -427,18 +426,15 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-align: center;
-margin-top: 55px;
 margin-bottom: 55px;
 }
 
 
 .list-markeiting {
-
+justify-content: center;
     display: flex;
     gap: 107px;
-    margin-left: 83px;
-        margin-right: 83px;
-   margin-bottom: 60px;
+ 
 }
 
 
@@ -645,4 +641,182 @@ line-height: normal;
 
 
 /* section-addres */
+
+.section-addres {
+    padding-bottom: 240px;
+    background-color: #1E252B;
+}
+
+
+.addres-title {
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+margin-bottom: 25px;
+}
+
+
+.addres-text {
+    color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 100px;
+
+}
+
+.input-addres {
+    border-radius: 15px;
+border: 1.5px solid rgba(255, 255, 255, 0.10);
+background: #283036;
+width: 549px;
+height: 64px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 12px;
+display: flex;
+}
+
+.button-addres {
+    border: none;
+    border-radius: 8px;
+background: #FF6E30;
+margin-left: auto;
+width: 130.435px;
+height: 48px;
+margin-top: -12px;
+margin-right: 12px;
+}
+
+.textir-button {
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* footer */
+
+
+.footer {
+    background-color:  #1E252B;;
+    padding-bottom: 98px;
+    padding-top: 70px;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.item-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.list-foot {
+   margin-left:115px ; 
+}
+.listis {
+    margin-left: 115px;
+}
+
+.footer-logo {
+    color: rgba(255, 255, 255, 0.90);
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.footer-transistion {
+    color: rgba(255, 255, 255, 0.90);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 25px;
+}
+
+.footer-caption {
+    color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+width: 260px;
+margin-top: 21px;
+}
+
+
+.list-footer {
+    margin-left: 156px;
+}
+
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 20px;
+}
+
+
+.contact {
+    color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.contact-desk {
+    color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.contant {
+    color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 10px;
+}
+
+.contactis {
+    color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
 
