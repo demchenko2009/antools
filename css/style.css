@@ -79,6 +79,12 @@ h1, h2, h3, p, ul{
     line-height: normal;
 }
 
+.nav-text:hover,
+.nav-text:focus {
+    color: darkorange;
+}
+
+
 .nav-img {
     margin-left: 5px;
     width: 18px;
@@ -101,6 +107,11 @@ h1, h2, h3, p, ul{
     font-weight: 600;
     line-height: normal;
 } 
+
+.login-text:hover,
+.login-text:focus {
+    color: darkorange;
+}
 
 .button {
     border: none;
@@ -710,6 +721,9 @@ line-height: normal;
     background-color:  #1E252B;;
     padding-bottom: 98px;
     padding-top: 70px;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+
+
 }
 
 .footer-box {
