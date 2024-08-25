@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -31,10 +32,14 @@
               <a href="./index.html" class="nav-text">Home</a>
             </li>
             <li class="nav-item">
-              <a href="./index.html" class="link nav-text"
-                >Categories
-                <img src="./img/arrow.png" alt="arrow" class="nav-img" />
-              </a>
+         
+                <select id="size" name="sizen" class="decoration nav-text">
+                  <option value="xs" class="nav-text">Categories</option>
+                  <option value="s" class="nav-text">Company</option>
+                  <option value="m" class="nav-text">Logo</option>
+                  <option value="l" class="nav-text">Contact</option>
+                </select>
+            
             </li>
             <li class="nav-item">
               <a href="./index.html" class="nav-text">My Collections</a>
@@ -182,10 +187,12 @@
               <div class="carder-box">
                 <img src="./img/like.png" alt="like" class="image-dark" />
                 <img src="./img/folder.png" alt="folder" class="image-like" />
-                <a href="https://www.notion.so/de-de"
+                <a
+                  href="https://www.notion.so/de-de"
                   class="button-desc"
                   target="_blank"
-                  >Visit</a>
+                  >Visit</a
+                >
               </div>
             </li>
             <li class="cardses">
@@ -200,8 +207,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
               <div class="carder-box">
-                <img src="./img/like.png" alt="like" class="image-dark"/>
-                <img src="./img/folder.png" alt="folder" class="image-like"/>
+                <img src="./img/like.png" alt="like" class="image-dark" />
+                <img src="./img/folder.png" alt="folder" class="image-like" />
                 <a
                   href="https://slack.com/intl/de-de/"
                   class="button-desc"
@@ -212,7 +219,7 @@
             </li>
             <li class="cardses">
               <div class="popular-box">
-                <img src="./img/investicio.png" alt="investicio"/>
+                <img src="./img/investicio.png" alt="investicio" />
                 <div>
                   <p class="text-carders">Invision</p>
                   <p class="forwards-text">Free & Paid</p>
@@ -279,15 +286,17 @@
                 <div class="carder-box">
                   <img src="./img/like.png" alt="like" class="image-dark" />
                   <img src="./img/folder.png" alt="folder" class="image-like" />
-                  <a href="https://zeplin.io/"
+                  <a
+                    href="https://zeplin.io/"
                     class="button-desckription"
-                    target="_blank">Visit</a
+                    target="_blank"
+                    >Visit</a
                   >
                 </div>
               </li>
               <li class="item-katigory">
                 <div class="popular-box">
-                  <img src="./img/cube.png" alt="cube"/>
+                  <img src="./img/cube.png" alt="cube" />
                   <div>
                     <p class="text-carders">Toolbox</p>
                     <p class="forwards-text">Free</p>
@@ -309,7 +318,7 @@
               </li>
               <li class="item-katigory">
                 <div class="popular-box">
-                  <img src="./img/phost.png" alt="phost"/>
+                  <img src="./img/phost.png" alt="phost" />
                   <div>
                     <p class="text-carders">PHPStorm</p>
                     <p class="forwards-text">Free</p>
@@ -319,17 +328,19 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <div class="carder-box">
-                  <img src="./img/like.png" alt="like" class="image-dark"/>
-                  <img src="./img/folder.png" alt="folder" class="image-like"/>
+                  <img src="./img/like.png" alt="like" class="image-dark" />
+                  <img src="./img/folder.png" alt="folder" class="image-like" />
                   <a
                     href="https://www.jetbrains.com/phpstorm/"
                     class="button-desckription"
-                    target="_blank">Visit</a>
+                    target="_blank"
+                    >Visit</a
+                  >
                 </div>
               </li>
               <li class="item-katigory">
                 <div class="popular-box">
-                  <img src="./img/fiather.png" alt="fiat"/>
+                  <img src="./img/fiather.png" alt="fiat" />
                   <div>
                     <p class="text-carders">Procreate</p>
                     <p class="forwards-text">Paid</p>
@@ -339,11 +350,17 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <div class="carder-box">
-                  <img src="./img/like.png" alt="like" class="image-dark"/>
-                  <img src="./img/folder.png" alt="folder" class="image-like"/><a
+                  <img src="./img/like.png" alt="like" class="image-dark" />
+                  <img
+                    src="./img/folder.png"
+                    alt="folder"
+                    class="image-like"
+                  /><a
                     href="https://procreate.com/"
                     class="button-desckription"
-                    target="_blank">Visit</a>
+                    target="_blank"
+                    >Visit</a
+                  >
                 </div>
               </li>
             </ul>
@@ -353,7 +370,9 @@
       <section class="section-mann">
         <div class="container">
           <ul class="list-mann">
-            <li><img src="./img/arrowleft.png" alt="arrowl" class="arrow-left" /></li>
+            <li>
+              <img src="./img/arrowleft.png" alt="arrowl" class="arrow-left" />
+            </li>
             <li>
               <p class="text-mann">
                 Incididunt cillum do sint sint enim ullamco id deserunt mollit
@@ -365,7 +384,11 @@
               </p>
             </li>
             <li>
-              <img src="./img/arrowright.png" alt="arrowr" class="arrow-right" />
+              <img
+                src="./img/arrowright.png"
+                alt="arrowr"
+                class="arrow-right"
+              />
             </li>
           </ul>
           <div class="mann-box">
@@ -386,7 +409,8 @@
             <input
               type="email"
               class="text-input"
-              placeholder="Enter your email..." />
+              placeholder="Enter your email..."
+            />
 
             <button type="button" class="button-addres">Join Us</button>
           </form>
@@ -453,5 +477,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
